@@ -24,6 +24,13 @@
   --rowPad:2px;
 }
 
+:root[data-theme="dark"]{
+  --bg:#111;
+  --text:#ffffff;
+  --muted:#9a9a9a;
+  --divider:#2a2a2a;
+}
+
 /* Base */
 *{ box-sizing:border-box; }
 html, body{ height:100%; }
@@ -94,9 +101,9 @@ p{
 
 /* Links */
 a{
-  color: rgba(17,17,17,0.8);
+  color: color-mix(in srgb, var(--muted) 90%, transparent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(17,17,17,0.18);
+  border-bottom: 1px solid color-mix(in srgb, var(--muted) 60%, transparent);
   padding-bottom: 2px;
   transition:
     color 0.18s ease,
@@ -106,7 +113,7 @@ a{
 
 a:hover{
   color: var(--text);
-  border-bottom-color: rgba(17,17,17,0.45);
+  border-bottom-color: var(--text);
 }
 
 /* Rows */

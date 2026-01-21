@@ -28,7 +28,8 @@ const education = [
   },
 ];
 
-const about = "I enjoy building tools with clean, intuitive interfaces and strong security, valuing accessibility, performance, and simple design. I have practical experience using AWS services as well as configuring networks on CISCO devices in lab-based environments. Additionally, I have an understanding of machine learning and algorithms. Outside of work, I'm interested in travelling, streetwear fashion, and casual gaming.";
+const about = "I enjoy building tools with clean, intuitive interfaces and strong security, valuing accessibility, performance, and simple design. I have practical experience using AWS services as well as configuring networks on CISCO devices in lab-based environments. Additionally, I have an understanding of machine learning and algorithms. Outside of work, I'm interested in travelling, and casual gaming.";
+
 </script>
 
 <template>
