@@ -55,7 +55,7 @@ body{
 
   /* Consistent outer spacing */
   padding-top:var(--space-s);
-  padding-bottom:var(--space-l);
+  padding-bottom:var(--space-s);
 
   overflow-y:auto;
 }

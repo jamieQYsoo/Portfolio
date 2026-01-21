@@ -20,10 +20,10 @@ const education = [
     href: "",
   },
   {
-    title: "ATAR",
-    institution: "Wantirna College",
-    dates: "2022",
-    score: "Ranking: 85.3 / 99.95",
+    title: "Cisco Certified Network Associate (CCNA)",
+    institution: "Cisco Systems",
+    dates: "Planned for 2026",
+    score: "",
     href: "",
   },
 ];
@@ -65,11 +65,11 @@ const about = "I enjoy building tools with clean, intuitive interfaces and stron
 
           <p>
             {{ e.institution }}
-            <span v-if="e.score"> · {{ e.dates }}</span>
+            <span v-if="e.score"> · {{ e.score }}</span>
           </p>
         </div>
 
-        <p>{{ e.score }}</p>
+        <p>{{ e.dates }}</p>
       </div>
     </section>
 
