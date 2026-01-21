@@ -10,8 +10,9 @@
   --fs:15px;
   --lh:1.6;
 
-  --h1:36px;
-  --h2:16px;
+  --h1:34px;
+  --h2:14px;
+  --p: 14px;
 
   /* Spacing system */
   --space-s:5px;
@@ -96,6 +97,7 @@ h2{
 p{
   margin:0 0 var(--space-s);
   color:var(--muted);
+  font-size: var(--p);
   letter-spacing:-0.02em;
 }
 

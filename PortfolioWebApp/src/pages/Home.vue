@@ -2,7 +2,7 @@
 import { RouterLink } from "vue-router";
 import { projects } from "../data/projects";
 
-const name = "Jamie Qing Yuan Soo";
+const name = "Jamie Soo";
 const tagline = "A software engineering student with an interest in creating practical, accessible, and scalable solutions using secure networking.";
 
 const links = [
@@ -65,11 +65,11 @@ const about = "I enjoy building tools with clean, intuitive interfaces and stron
 
           <p>
             {{ e.institution }}
-            <span v-if="e.score"> · {{ e.score }}</span>
+            <span v-if="e.score"> · {{ e.dates }}</span>
           </p>
         </div>
 
-        <p>{{ e.dates }}</p>
+        <p>{{ e.score }}</p>
       </div>
     </section>
 
