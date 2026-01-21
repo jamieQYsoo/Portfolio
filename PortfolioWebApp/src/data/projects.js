@@ -13,7 +13,7 @@ export const projects = [
           },
           {
             title: "Approach",
-            text: "Multiple machine learning models were trained in Python using a processed dataset and evaluated. The most suitable model was integrated into a web-based frontend application using FastAPI. SHapley Additive exPlanations (SHAPs) was also incorporated to highlight influential symptoms, enhancing transparency. Due to ethical considerations and the limited scope of the project, no user data is stored."},
+            text: "Multiple machine learning models were trained in Python using a processed dataset and evaluated. The most suitable model was integrated into a web-based frontend application using FastAPI. SHapley Additive exPlanations (SHAPs) was also incorporated to highlight influential symptoms, enhancing transparency. Due to ethical considerations and the limited scope of the project, no user data was stored."},
         ],
         tech: ["Python", "FastAPI", "HTML/CSS/JS"],
         links: [
