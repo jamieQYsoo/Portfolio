@@ -133,6 +133,9 @@ a:hover{
     align-items: flex-start;
     padding:var(--rowPad) 0 var(--space-m);
   }
+  .page{
+    overflow-y: visible;
+  }
 }
 
 
